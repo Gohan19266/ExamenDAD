@@ -7,7 +7,6 @@ public class Ejercicio4 extends Thread{
     public Ejercicio4(int prioridad,String leo){
         this.leo=leo;
         setPriority(prioridad);
-        System.out.println("*******Cometencia de animales leopardos*******");
     }
     @Override 
     public void run(){
